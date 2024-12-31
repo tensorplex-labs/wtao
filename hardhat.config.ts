@@ -18,6 +18,7 @@ const config: HardhatUserConfig = {
     taoevm: {
       url: "https://lite.chain.opentensor.ai",
       chainId: 964,
+      accounts: [process.env.PRIVATE_KEY || ""],
     },
   },
 };
