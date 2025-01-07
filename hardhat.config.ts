@@ -20,6 +20,11 @@ const config: HardhatUserConfig = {
       chainId: 964,
       accounts: [process.env.PRIVATE_KEY || ""],
     },
+    taoevm_testnet: {
+      url: "https://test.chain.opentensor.ai",
+      chainId: 945,
+      accounts: [process.env.PRIVATE_KEY || ""],
+    },
   },
 };
 
